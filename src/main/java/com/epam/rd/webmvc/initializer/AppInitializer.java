@@ -1,4 +1,4 @@
-package eu.kielczewski.example.initializer;
+package com.epam.rd.webmvc.initializer;
 
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.ContextLoaderListener;
@@ -12,7 +12,7 @@ import javax.servlet.ServletRegistration;
 
 public class AppInitializer implements WebApplicationInitializer {
 
-    private static final String CONFIG_LOCATION = "eu.kielczewski.example.config";
+    private static final String CONFIG_LOCATION = "com.epam.rd.webmvc";
     private static final String MAPPING_URL = "/*";
 
     @Override

@@ -1,4 +1,4 @@
-package eu.kielczewski.example.controller;
+package com.epam.rd.webmvc.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
