@@ -42,4 +42,5 @@ class WebMvcConfig implements WebMvcConfigurer {
         return viewResolver;
     }
 
+
 }
